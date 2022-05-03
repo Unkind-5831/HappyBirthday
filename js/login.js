@@ -2,7 +2,7 @@ $('#login-button').click(function (event) {
 	var userName=document.getElementById("userName").value;
     var pwd=document.getElementById("pwd").value;
 		//修改密码请改此处
-    if(用户名=="李倩" &&  pwd=="19970403"){
+    if(userName=="李倩" &&  pwd=="19970403"){
 			event.preventDefault();
 			$('form').fadeOut(500);
 			$('.wrapper').addClass('form-success');
@@ -12,7 +12,7 @@ $('#login-button').click(function (event) {
 			},2000);
 		}
 	else{
-		alert("密码错误！   例： 小于 19960203");
+		alert("密码错误！例：小于 19960203");
 	}
 });
 
